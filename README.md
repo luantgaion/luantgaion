@@ -4,7 +4,7 @@
 
 <div align="center">
  <h1> 
-   LUAN GAION
+   LUAN TENCA GAION
    </a>
  </h1>
 </div>
