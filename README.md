@@ -20,7 +20,7 @@
 </p>
 
 <h4 align="center"> 
-   🐒
+  Software Engeneer - FIAP - Information System
   
 </h4>
 
