@@ -39,6 +39,8 @@
   <img src="https://icons-for-free.com/download-icon-vscode+icons+type+sql-1324451491579630520_512.png" height="32"/>&nbsp;
   <!-- Git Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655117-7c577180-d126-11eb-9b30-3591b1252bb5.png">&nbsp;
+  <!-- Kotlin Icon -->
+  <img src="https://icons-for-free.com/iconfiles/png/512/Kotlin-1324888734058023501.png">&nbsp;
  
  
 </p>
