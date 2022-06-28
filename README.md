@@ -40,7 +40,7 @@
   <!-- Git Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655117-7c577180-d126-11eb-9b30-3591b1252bb5.png">&nbsp;
   <!-- Kotlin Icon -->
-  <img src="https://icons-for-free.com/iconfiles/png/128/Kotlin-1324888734058023501.png">&nbsp;
+  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385722/luantgaion/download-icon-Kotlin-1324888734058023501_32_aya66b.png">&nbsp;
  
  
 </p>
