@@ -43,7 +43,10 @@
   <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386006/luantgaion/download-icon-super_tiny_icons_kotlin-1324450745181461483_32_l6uovk.png">&nbsp;
   <!-- Flutter Icon -->
   <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385854/luantgaion/download-icon-super_tiny_icons_flutter-1324450727285733556_32_hapjqi.png">&nbsp;
- 
+  <!-- Spring MVC Icon -->
+  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-f79ce563f9_jduezz.png">&nbsp;
+  <!-- Spring Boot Icon -->
+  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-8fef74cf77_bqaw26.png">&nbsp;
  
 </p>
 
