@@ -42,7 +42,7 @@
   <!-- Kotlin Icon -->
   <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385722/luantgaion/download-icon-Kotlin-1324888734058023501_32_aya66b.png">&nbsp;
   <!-- Flutter Icon -->
-  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385722/luantgaion/download-icon-Kotlin-1324888734058023501_32_aya66b.png">&nbsp;
+  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385854/luantgaion/download-icon-super_tiny_icons_flutter-1324450727285733556_32_hapjqi.png">&nbsp;
  
  
 </p>
