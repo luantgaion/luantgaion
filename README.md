@@ -30,7 +30,7 @@
   <!-- Java Icon --> 
   <img src="https://icons-for-free.com/download-icon-super+tiny+icons+java-1324450741629650713_512.png" height="32"/>&nbsp;
  <!-- Spring MVC Icon -->
-  <img src="https://user-images.githubusercontent.com/62944271/176320612-c25ce6af-e7d5-405c-8e8d-ed62f15028db.png" height="32"/>&nbsp;
+  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-f79ce563f9_jduezz.png">&nbsp;
   <!-- Spring Boot Icon -->
   <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-8fef74cf77_bqaw26.png">&nbsp;
   <!-- HTML Icon -->
