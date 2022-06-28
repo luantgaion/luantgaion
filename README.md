@@ -30,7 +30,7 @@
   <!-- Java Icon --> 
   <img src="https://icons-for-free.com/download-icon-super+tiny+icons+java-1324450741629650713_512.png" height="32"/>&nbsp;
  <!-- Spring MVC Icon -->
-  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-f79ce563f9_jduezz.png">&nbsp;
+  <img src="https://user-images.githubusercontent.com/62944271/176320612-c25ce6af-e7d5-405c-8e8d-ed62f15028db.png" height="32"/>&nbsp;
   <!-- Spring Boot Icon -->
   <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386513/luantgaion/ezgif-5-8fef74cf77_bqaw26.png">&nbsp;
   <!-- HTML Icon -->
@@ -44,9 +44,9 @@
   <!-- Git Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655117-7c577180-d126-11eb-9b30-3591b1252bb5.png">&nbsp;
   <!-- Kotlin Icon -->
-  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656386006/luantgaion/download-icon-super_tiny_icons_kotlin-1324450745181461483_32_l6uovk.png">&nbsp;
+  <img src="https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+kotlin-1324450745181461483.png" height="32"/>&nbsp;
   <!-- Flutter Icon -->
-  <img src="https://res.cloudinary.com/ulhuen/image/upload/v1656385854/luantgaion/download-icon-super_tiny_icons_flutter-1324450727285733556_32_hapjqi.png">&nbsp;
+  <img src="https://icons-for-free.com/iconfiles/png/512/super+tiny+icons+flutter-1324450727285733556.png" height="32"/>&nbsp;
   
  
 </p>
