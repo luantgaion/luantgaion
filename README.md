@@ -1,6 +1,6 @@
 ![Profile Views](http://estruyf-github.azurewebsites.net/api/VisitorHit?user=beatriznonato&repo=luantgaion&countColorcountColor)
 
-<img align="right" src="https://res.cloudinary.com/ulhuen/image/upload/v1634871888/luantgaion/loen_euy3dd.png" width="260"/>
+
 
 <div align="center">
  <h1> 
