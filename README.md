@@ -1,7 +1,3 @@
-![Profile Views](http://estruyf-github.azurewebsites.net/api/VisitorHit?user=beatriznonato&repo=luantgaion&countColorcountColor)
-
-
-
 <div align="center">
  <h1> 
    LUAN TENCA GAION
