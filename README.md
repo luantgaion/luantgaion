@@ -29,7 +29,11 @@
   <img src="https://user-images.githubusercontent.com/35739995/122655003-80cf5a80-d125-11eb-9718-c0d416a29986.png">&nbsp;
   <!-- JS Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655023-a78d9100-d125-11eb-89b8-f006041d9d4a.png">&nbsp;
-  <!-- SQL Icon -->
+  <!-- Python Icon -->
+  <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" height="32">&nbsp;
+  <!-- Arduino Icon -->
+  <img src="https://static-00.iconduck.com/assets.00/file-type-arduino-icon-512x512-lyuj2qji.png" height="32"/>&nbsp;
+  <!-- PL/SQL Icon -->
   <img src="https://icons-for-free.com/download-icon-vscode+icons+type+sql-1324451491579630520_512.png" height="32"/>&nbsp;
   <!-- Git Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655117-7c577180-d126-11eb-9b30-3591b1252bb5.png">&nbsp;
