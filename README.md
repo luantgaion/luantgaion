@@ -34,16 +34,17 @@
   <!-- Git Icon -->
   <img src="https://user-images.githubusercontent.com/35739995/122655117-7c577180-d126-11eb-9b30-3591b1252bb5.png">&nbsp;
   
+ </p>
  
-</p>
-
+ <!--
 <table align="left">
   <row>
-<!--   <td>
+   <td>
        <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=luantgaion&layout=compact&theme=react'> 
-    </td> -->
- <!--   <td>
+    </td> 
+    <td>
        <img height='172' src='https://github-readme-stats.vercel.app/api?username=luantgaion&show_icons=true&theme=react'> 
-    </td> -->
+    </td> 
   </row>
-</table>
+</table> 
+-->
