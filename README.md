@@ -41,7 +41,7 @@
  </p>
  
  
-<table align="left">
+<table align="center">
   <row>
    <td>
        <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=luantgaion&layout=compact&theme=react'> 
