@@ -41,11 +41,11 @@
  </p>
  
  
-<table>
-   <td align="left">
+<table  align="center">
+   <td>
        <img height='172' src='https://github-readme-stats.vercel.app/api/top-langs/?username=luantgaion&layout=compact&theme=react'> 
     </td> 
-    <td align="right">
+    <td>
        <img height='172' src='https://github-readme-stats.vercel.app/api?username=luantgaion&show_icons=true&theme=react'> 
     </td> 
 </table> 
