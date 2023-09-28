@@ -1,7 +1,6 @@
 <div align="center">
  <h1> 
    LUAN TENCA GAION
-   </a>
  </h1>
 </div>
 
@@ -17,7 +16,6 @@
 
 <h4 align="center"> 
   Software Engineer - FIAP - Information System
-  
 </h4>
 
 <br>
