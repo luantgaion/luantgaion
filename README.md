@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center"> 
-  Software Engineer - FIAP - Information System
+  Software Engineer - Front-End Developer
 </h4>
 
 <br>
