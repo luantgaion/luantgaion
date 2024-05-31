@@ -15,7 +15,7 @@
 </p>
 
 <h4 align="center"> 
-  Software Engineer - Front-End Developer
+  Software Engineer
 </h4>
 
 <br>
