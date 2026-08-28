@@ -14,13 +14,22 @@ const api = async (p) => {
   return r.json();
 };
 
-const user  = await api(`/users/${USER}`);
-const repos = await api(`/users/${USER}/repos?per_page=100&type=owner`);
+const user = await api(`/users/${USER}`);
+
+/* Paginated. One page caps at 100, and anything past the cap would simply be
+   missing from the count with no error to notice. */
+const repos = [];
+for (let page = 1; ; page++) {
+  const batch = await api(`/users/${USER}/repos?per_page=100&type=owner&page=${page}`);
+  repos.push(...batch);
+  if (batch.length < 100) break;
+}
+
+const owned = repos.filter((r) => !r.fork);
 
 /* language bytes, summed across every owned repository */
 const bytes = {};
-for (const r of repos) {
-  if (r.fork) continue;
+for (const r of owned) {
   const l = await api(`/repos/${USER}/${r.name}/languages`);
   for (const k in l) bytes[k] = (bytes[k] || 0) + l[k];
 }
@@ -28,7 +37,7 @@ const langs = Object.entries(bytes).sort((a, b) => b[1] - a[1]);
 const total = langs.reduce((a, b) => a + b[1], 0);
 
 const years = Math.floor((Date.now() - Date.parse(user.created_at)) / 31557600000);
-const pad   = (n) => String(n).padStart(2, '0');
+const pad = (n) => String(n).padStart(2, '0');
 
 /* ---- layout ------------------------------------------------------------ */
 const W = 1000, H = 340, P = 56;
@@ -41,9 +50,9 @@ const mono = (x, y, t, o = 0.5, size = 11, anchor = 'start', track = 2.2) =>
   `letter-spacing="${track}">${esc(t)}</text>\n`;
 
 const stats = [
-  [pad(repos.filter(r => !r.fork).length), 'REPOSITORIES'],
-  [pad(langs.length),                      'LANGUAGES'],
-  [pad(years),                             'YEARS ON GITHUB']
+  [pad(owned.length), 'REPOSITORIES'],
+  [pad(langs.length), 'LANGUAGES'],
+  [pad(years),        'YEARS ON GITHUB']
 ];
 
 let s = '';
@@ -68,9 +77,10 @@ langs.forEach(([, v], i) => {
   cx += w;
 });
 
-/* legend: the ones actually worth naming */
-langs.slice(0, 6).forEach(([k, v], i) => {
-  const x = P + (BW / 6) * i;
+/* legend: only as many as fit without colliding */
+const SLOTS = Math.min(6, langs.length);
+langs.slice(0, SLOTS).forEach(([k, v], i) => {
+  const x = P + (BW / SLOTS) * i;
   s += `  <rect x="${x}" y="${BY + 44}" width="9" height="9" fill="${INK}" opacity="${(0.86 - i * 0.075).toFixed(3)}"/>\n`;
   s += mono(x + 16, BY + 53, `${k}  ${(v / total * 100).toFixed(1)}%`, 0.62, 10, 'start', 1);
 });
@@ -83,4 +93,4 @@ writeFileSync(new URL('../stats.svg', import.meta.url),
   `role="img" aria-label="GitHub statistics for ${USER}">\n` +
   `  <rect width="${W}" height="${H}" fill="#0A0A0A"/>\n${s}</svg>\n`);
 
-console.log(`stats.svg written — ${langs.length} languages, ${total.toLocaleString()} bytes`);
+console.log(`stats.svg written — ${owned.length} repos, ${langs.length} languages, ${total.toLocaleString()} bytes`);
