@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" width="1000" height="310" role="img" aria-label="LOEN — Luan T. Gaion">
+  <rect width="1000" height="310" fill="#0A0A0A"/>
+  <g transform="translate(500,155)">
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="0.00s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="0.00s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-1.22s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-1.22s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-2.44s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-2.44s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-3.67s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-3.67s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-4.89s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-4.89s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-6.11s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-6.11s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-7.33s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-7.33s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-8.56s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-8.56s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-300" y="-300" width="600" height="600" rx="156" fill="none" stroke="#ECECEC" stroke-width="1.3" vector-effect="non-scaling-stroke" opacity="0">
+      <animateTransform attributeName="transform" type="scale" values="0.035;1.45" dur="11s" begin="-9.78s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0;0.62;0.62;0" keyTimes="0;0.09;0.92;1" dur="11s" begin="-9.78s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="500" y="173" text-anchor="middle" fill="#ECECEC" font-family="Archivo, Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="900" font-size="104" letter-spacing="-5">LOEN</text>
+  <circle cx="670" cy="115" r="7" fill="none" stroke="#ECECEC" stroke-width="1.8"/>
+  <text x="500" y="237" text-anchor="middle" fill="#ECECEC" opacity="0.5" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="6">LUAN T. GAION</text>
+</svg>
