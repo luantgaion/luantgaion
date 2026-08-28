@@ -8,4 +8,8 @@
 &nbsp;
 <a href="https://www.linkedin.com/in/luan-tenca-gaion/"><img src="btn-linkedin.svg" width="185" alt="LinkedIn"></a>
 
+<br><br>
+
+<img src="stats.svg" width="720" alt="GitHub statistics">
+
 </div>

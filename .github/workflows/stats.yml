@@ -1,0 +1,52 @@
+name: stats
+
+# Regenerates stats.svg and commits it. The card is a file in this repository
+# rather than a live call to a third-party renderer, so the profile keeps
+# working when that renderer does not — which is why the previous card broke.
+
+on:
+  schedule:
+    - cron: '17 4 * * *'     # daily, off the hour to avoid the busy minute
+  workflow_dispatch:          # and on demand
+  push:
+    paths:
+      - 'scripts/stats.mjs'
+      - '.github/workflows/stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build the card
+        env:
+          # 5,000 requests/hour, against 60 unauthenticated — the language
+          # breakdown alone costs one request per repository.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/stats.mjs
+
+      - name: Commit if it changed
+        run: |
+          # Commit as the repository owner, not as the Actions bot: a bot in
+          # the contributor list is noise on a personal profile.
+          git config user.name  'Loen'
+          git config user.email 'luantgaion@users.noreply.github.com'
+          if git diff --quiet -- stats.svg; then
+            echo 'No change.'
+          else
+            git add stats.svg
+            git commit -m 'Refresh GitHub stats card'
+            git push
+          fi
