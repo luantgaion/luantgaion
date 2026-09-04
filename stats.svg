@@ -4,31 +4,32 @@
   <text x="78" y="128" fill="#ECECEC" font-family="Archivo, Arial Black, Helvetica, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-2.5">06</text>
   <text x="80" y="154" text-anchor="start" fill="#ECECEC" opacity="0.5" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">REPOSITORIES</text>
   <line x1="352" y1="60" x2="352" y2="168" stroke="#ECECEC" stroke-width="1" opacity="0.35"/>
-  <text x="374" y="128" fill="#ECECEC" font-family="Archivo, Arial Black, Helvetica, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-2.5">07</text>
+  <text x="374" y="128" fill="#ECECEC" font-family="Archivo, Arial Black, Helvetica, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-2.5">08</text>
   <text x="376" y="154" text-anchor="start" fill="#ECECEC" opacity="0.5" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">LANGUAGES</text>
   <line x1="648" y1="60" x2="648" y2="168" stroke="#ECECEC" stroke-width="1" opacity="0.35"/>
   <text x="670" y="128" fill="#ECECEC" font-family="Archivo, Arial Black, Helvetica, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-2.5">06</text>
   <text x="672" y="154" text-anchor="start" fill="#ECECEC" opacity="0.5" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">YEARS ON GITHUB</text>
   <line x1="56" y1="168" x2="944" y2="168" stroke="#ECECEC" stroke-width="1" opacity="0.35"/>
-  <rect x="56.0" y="218" width="317.6" height="15" fill="#ECECEC" opacity="0.860"/>
-  <rect x="373.6" y="218" width="316.3" height="15" fill="#ECECEC" opacity="0.785"/>
-  <rect x="689.9" y="218" width="113.2" height="15" fill="#ECECEC" opacity="0.710"/>
-  <rect x="803.2" y="218" width="77.2" height="15" fill="#ECECEC" opacity="0.635"/>
-  <rect x="880.4" y="218" width="30.1" height="15" fill="#ECECEC" opacity="0.560"/>
-  <rect x="910.5" y="218" width="27.9" height="15" fill="#ECECEC" opacity="0.485"/>
-  <rect x="938.4" y="218" width="5.6" height="15" fill="#ECECEC" opacity="0.410"/>
+  <rect x="56.0" y="218" width="486.8" height="15" fill="#ECECEC" opacity="0.860"/>
+  <rect x="542.8" y="218" width="157.3" height="15" fill="#ECECEC" opacity="0.785"/>
+  <rect x="700.2" y="218" width="94.1" height="15" fill="#ECECEC" opacity="0.710"/>
+  <rect x="794.3" y="218" width="93.7" height="15" fill="#ECECEC" opacity="0.635"/>
+  <rect x="888.1" y="218" width="37.3" height="15" fill="#ECECEC" opacity="0.560"/>
+  <rect x="925.4" y="218" width="8.8" height="15" fill="#ECECEC" opacity="0.485"/>
+  <rect x="934.2" y="218" width="8.2" height="15" fill="#ECECEC" opacity="0.410"/>
+  <rect x="942.4" y="218" width="1.6" height="15" fill="#ECECEC" opacity="0.335"/>
   <rect x="56" y="262" width="9" height="9" fill="#ECECEC" opacity="0.860"/>
-  <text x="72" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">CSS  35.8%</text>
+  <text x="72" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">TypeScript  54.8%</text>
   <rect x="204" y="262" width="9" height="9" fill="#ECECEC" opacity="0.785"/>
-  <text x="220" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">JavaScript  35.6%</text>
+  <text x="220" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">Python  17.7%</text>
   <rect x="352" y="262" width="9" height="9" fill="#ECECEC" opacity="0.710"/>
-  <text x="368" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">HTML  12.8%</text>
+  <text x="368" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">CSS  10.6%</text>
   <rect x="500" y="262" width="9" height="9" fill="#ECECEC" opacity="0.635"/>
-  <text x="516" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">Python  8.7%</text>
+  <text x="516" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">JavaScript  10.6%</text>
   <rect x="648" y="262" width="9" height="9" fill="#ECECEC" opacity="0.560"/>
-  <text x="664" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">GDScript  3.4%</text>
+  <text x="664" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">HTML  4.2%</text>
   <rect x="796" y="262" width="9" height="9" fill="#ECECEC" opacity="0.485"/>
-  <text x="812" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">Elixir  3.1%</text>
+  <text x="812" y="271" text-anchor="start" fill="#ECECEC" opacity="0.62" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="1">GDScript  1.0%</text>
   <text x="56" y="40" text-anchor="start" fill="#ECECEC" opacity="0.45" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">GITHUB</text>
-  <text x="944" y="40" text-anchor="end" fill="#ECECEC" opacity="0.3" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">2026-09-03</text>
+  <text x="944" y="40" text-anchor="end" fill="#ECECEC" opacity="0.3" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2.2">2026-09-04</text>
 </svg>
